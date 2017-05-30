@@ -1,17 +1,615 @@
-<html lang="en">
+<!doctype html>
+<html>
 	<head>
-  <meta charset="utf-8">
 
-  <title>Mckenna Cisler</title>
-  <meta name="description" content="The personal page of Mckenna Cisler">
-  <meta name="author" content="Mckenna Cisler">
-<link rel="stylesheet" href="css/styles.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 
-</head><body>
-  <div id="header"><h1>Mckenna Cisler</h1></div>
-  <div id="middle">
-  <h3>This is a work in progress personal page</h3>
-  <p><a href="https://www.linkedin.com/in/mckenna-cisler">LinkedIn</a>
-  <a href="https://github.com/MckennaCisler">GitHub</a></p>
-  </div>
-</body></html>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+	<title>Mckenna Cisler</title>
+
+	<style>
+	body {
+	background: #fafafa;
+	font: 15px "Open Sans", sans-serif;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", sans-serif;
+	margin-bottom: 0.1rem;
+}
+
+em {
+	color: #999;
+}
+p {
+	line-height: 1.4;
+	margin: 0.5rem 0;
+}
+ul {
+	margin-bottom: 0;
+	list-style-type: '— ';
+}
+section {
+	margin-bottom: 1rem;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+.cross-heading {
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #aaa;
+
+	width: 100%;
+	font-size:1.25rem;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+
+	margin-top: 1.25em;
+}
+
+.item {
+	margin-bottom: 1em;
+}
+
+.name {
+	font-size: 1.3rem;
+}
+
+.section-container {
+	padding: 0.25em;
+	margin: 0.5em;
+	margin-bottom: 1em;
+	border-left-style: solid;
+	border-color: #aaa0;
+	border-width: 1px;
+}
+
+.section-container-hover {
+	border-color: #aaa;
+}
+
+#header {
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #aaa;
+	max-width: 65%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 	0.75rem;
+	margin-top: 		0.75rem;
+	padding: 0.5em;
+}
+#header h1, #header h2, #header h3, #header h4 {
+	padding: 0;
+	margin: 0.1rem;
+}
+#resume {
+	margin: 0 auto;
+	max-width: 60%;
+	/*padding: 0.25rem;*/
+}
+
+
+#basics {
+	margin-bottom: -10px;
+}
+#basics h3 {
+	margin-top: 1.5em;
+}
+#basics-header-container {
+	overflow:hidden;
+}
+#basics .full-section {
+	margin: 0;
+}
+
+#contact {
+	float: left;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 0.25rem;
+}
+#location {
+	float: right;
+	text-align: right;
+	margin: 0;
+	margin-bottom: 0.25rem;
+}
+
+#profiles,
+#skills {
+	overflow: hidden;
+	margin: 0.5rem 0;
+}
+#profiles .item,
+#skills .item {
+	float: left;
+	margin: 0.25rem;
+}
+
+.keywords {
+	padding: 0.3rem;
+	margin: 0.25rem;
+}
+
+.keyword {
+	padding: 0.15rem 0.6rem;
+	margin: 0.2rem;
+
+	color: #aaa;
+	border-radius: 1rem;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #aaa;
+}
+
+.reference {
+	font-style: italic;
+	font-size-adjust: 0.48;
+}
+
+#footer {
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<div id="header-container">
+		<div id="header">
+			  <h1>Mckenna Cisler</h1>
+			  <h3>Computer Scientist</h3>
+		</div>
+	</div>
+
+	<icon class="entypo-twitter"></icon>
+
+	<div id="resume">
+			<section id="basics">
+				<div id="basics-header-container">
+					<div id="contact" class="section-container">
+						<div class="summary-section">
+								<div class="email">
+									mckennacisler@gmail.com
+								</div>
+						</div>
+						<div class="full-section">
+							<div class="website">
+								mckennacisler.github.io
+							</div>
+							<div class="phone">
+								(603) 991-2470
+							</div>
+						</div>
+					</div>
+					<section id="location" class="section-container">
+						<div class="summary-section">
+							<div class="countryCode">
+								United States
+									<span class="region">
+										(New Hampshire)
+									</span>
+							</div>
+						</div>
+						<div class="full-section">
+							<div class="address">
+								492 Birches Road
+							</div>
+							<div class="postalCode">
+								NH 03586
+							</div>
+							<div class="city">
+								Sugar Hill
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="summary">
+					<p><em>I&#x27;m a second-year student who enjoys programming in all its forms. My interests are still developing but I&#x27;m very interested in large information systems, networking, and big data.</em></p>
+				</div>
+				<section id="profiles">
+					<span class="item">
+							<icon title="LinkedIn" class="fa fa-linkedin"></icon>
+							<!-- <strong class="network">
+								LinkedIn
+							</strong> -->
+							<span class="username">
+								<a href="http://www.linkedin.com/in/mckenna-cisler">mckenna-cisler</a>
+							</span>
+					</span>
+					<span class="item">
+							<icon title="GitHub" class="fa fa-github"></icon>
+							<!-- <strong class="network">
+								GitHub
+							</strong> -->
+							<span class="username">
+								<a href="http://www.github.com/MckennaCisler">MckennaCisler</a>
+							</span>
+					</span>
+				</section>
+			</section>
+		<section id="work">
+			<p class="cross-heading">Work</p>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+						Humanity-Centered Robotics Initiative
+					</h3>
+					<div class="position">
+						Robotics Technician
+					</div>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>8 months</strong> <em>Started Sep 2016</em>
+					  </div>
+					<div class="website">
+						<a href="http://hcri.brown.edu">hcri.brown.edu</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<div class="summary">
+						<p><em>HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I worked as a technician on robots involved in research, development projects, and demonstrations. I also work on some pilot projects in humanity-centered robot design.</em></p>
+					</div>
+					<ul class="highlights">
+						<li>Worked on hardware interfacing and user interaction design for “Tablebot” – a novel mobile telepresence robot designed to resemble furniture</li>
+						<li>Co-developed node.js &amp; NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department</li>
+						<li>Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator</li>
+						<li>Setup various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+						White Mountain Science, Inc.
+					</h3>
+					<div class="position">
+						Educational Resource Developer / Camp Instructor
+					</div>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>2 years</strong> <em>Started Jan 2015</em>
+					  </div>
+					<div class="website">
+						<a href="http://whitemountainscience.org">whitemountainscience.org</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<div class="summary">
+						<p><em>A company interested in promoting STEM learning through instructional camps and development of education resources. I worked as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children&#x27;s camps.</em></p>
+					</div>
+					<ul class="highlights">
+						<li>Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials</li>
+						<li>Developed, assembled and demoed educational tools and resources, including IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface</li>
+						<li>Planned and ran weeklong STEAM workshops for 3rd – 9th graders</li>
+					</ul>
+				</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+						Brown Space Engineering
+					</h3>
+					<div class="position">
+						Flight Software Programmer
+					</div>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>8 months</strong> <em>Started Sep 2016</em>
+					  </div>
+					<div class="website">
+						<a href="http://brownspace.org/">brownspace.org</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<div class="summary">
+						<p><em>Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It hopes to achieve this by launching a fully open-source CubeSet in Q2 2018 capable of being reproduced for ~$5000 in under a year. </em></p>
+					</div>
+					<ul class="highlights">
+						<li>Wrote RTOS tasks in C for multi-frequency data recording and transmission packaging</li>
+						<li>Co-designed data collection structures and transmission schema</li>
+						<li>Worked on boot sequence and satellite state handling systems</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section id="work">
+			<p class="cross-heading">Projects</p>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+							<icon title="application" class="project-icon fa fa-code" aria-hidden="true"></icon>
+						Wikispeedia
+					</h3>
+					<div class="description">
+						<em>Webapp frontend for Wikipedia Game</em>
+					</div>
+					<div class="url">
+						<a href="http://wikispeedia.herokuapp.com">wikispeedia.herokuapp.com</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<!-- For spacing  -->
+					<p></p>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>1 month</strong> <em>Started Mar 2017</em>
+					  </div>
+					<ul class="highlights">
+						<li>Worked on websocket communication framework, Wikipedia crawling, and dynamic generation of page pairs</li>
+						<li>CSCI 0320 Term Project</li>
+					</ul>
+					  <div class="keywords">
+					      <span class="keyword">Java</span>
+					      <span class="keyword">Wikipedia</span>
+					      <span class="keyword">Javascript</span>
+					  </div>
+				</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+							<icon title="application" class="project-icon fa fa-code" aria-hidden="true"></icon>
+						The Social Playlist
+					</h3>
+					<div class="description">
+						<em>Music queue web app for crowd-sourced playlists</em>
+					</div>
+					<div class="url">
+						<a href="https://github.com/jkennan/The-Social-Playlist">github.com/jkennan/The-Social-Playlist</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<!-- For spacing  -->
+					<p></p>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>1 day</strong> <em>Started Jan 2017</em>
+					  </div>
+					<ul class="highlights">
+						<li>For Hack@Brown hackathon</li>
+					</ul>
+					  <div class="keywords">
+					      <span class="keyword">Meteor</span>
+					      <span class="keyword">Boostrap</span>
+					      <span class="keyword">YouTube API</span>
+					  </div>
+				</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+							<icon title="application" class="project-icon fa fa-code" aria-hidden="true"></icon>
+						Hubway Maps
+					</h3>
+					<div class="description">
+						<em>Visualization of socioeconomic data on Hubway stations in Cambridge, MA</em>
+					</div>
+					<div class="url">
+						<a href="https://mckennacisler.github.io/hubway-maps/public/">mckennacisler.github.io/hubway-maps/public</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<!-- For spacing  -->
+					<p></p>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>1 day</strong> <em>Started Mar 2017</em>
+					  </div>
+					<ul class="highlights">
+						<li>For Brown Datathon hackathon</li>
+					</ul>
+					  <div class="keywords">
+					      <span class="keyword">D3.js</span>
+					      <span class="keyword">node.js</span>
+					  </div>
+				</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<h3 class="name">
+							<icon title="application" class="project-icon fa fa-code" aria-hidden="true"></icon>
+						AlarmPi
+					</h3>
+					<div class="description">
+						<em>Raspberry Pi-based alarm clock with configuration interface</em>
+					</div>
+					<div class="url">
+						<a href="https://github.com/MckennaCisler/AlarmPi">github.com/MckennaCisler/AlarmPi</a>
+					</div>
+				</div>
+				<div class="full-section">
+					<!-- For spacing  -->
+					<p></p>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					    <strong>1 month</strong> <em>Started Mar 2017</em>
+					  </div>
+					<ul class="highlights">
+						<li>3D printed case</li>
+						<li>Python Tornado backend to web interface for configuration</li>
+					</ul>
+					  <div class="keywords">
+					      <span class="keyword">Raspberry Pi</span>
+					      <span class="keyword">Python</span>
+					      <span class="keyword">Tornado</span>
+					  </div>
+				</div>
+			</div>
+		</section>
+		<section id="education">
+			<p class="cross-heading">Education</p>
+			<div class="item section-container">
+				<div class="summary-section">
+					<div class="institution">
+						<icon class="fa fa-graduation-cap" aria-hidden="true"></icon>
+						Brown University
+					</div>
+					  <div class="date">
+					    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+					      Sep 05 2016 — May 26 2020
+					  </div>
+					<div class="area">
+						<span class="studyType">
+							<strong>Bachelors</strong>
+						</span>
+						(Computer Science)
+					</div>
+				</div>
+				<div class="full-section">
+						<div class="courses">
+						<em>Courses</em>
+						<ul>
+							<li>CSCI 0190 - Advanced Introduction to Computer Science</li>
+							<li>CSCI 0320 - Introduction to Software Engineering</li>
+							<li>CSCI 0220 - Introduction to Discrete Structures and Probability</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<p class="cross-heading">Skills</p>
+			<div class="item section-container">
+				<div class="summary-section">
+					<div class="skill-name">
+						Software Development
+					</div>
+					<div class="level">
+						<em>Intermediate</em>
+					</div>
+				</div>
+					<div class="full-section">
+						  <div class="keywords">
+						      <span class="keyword">Java</span>
+						      <span class="keyword">Python</span>
+						      <span class="keyword">C</span>
+						      <span class="keyword">C++</span>
+						      <span class="keyword">Linux</span>
+						  </div>
+					</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<div class="skill-name">
+						Web Development
+					</div>
+					<div class="level">
+						<em>Intermediate</em>
+					</div>
+				</div>
+					<div class="full-section">
+						  <div class="keywords">
+						      <span class="keyword">HTML</span>
+						      <span class="keyword">Javascript</span>
+						      <span class="keyword">node.js</span>
+						      <span class="keyword">Python Tornado</span>
+						      <span class="keyword">Bootstrap</span>
+						      <span class="keyword">jQuery</span>
+						  </div>
+					</div>
+			</div>
+			<div class="item section-container">
+				<div class="summary-section">
+					<div class="skill-name">
+						CAD &amp; Rapid Prototyping
+					</div>
+					<div class="level">
+						<em>Intermediate</em>
+					</div>
+				</div>
+					<div class="full-section">
+						  <div class="keywords">
+						      <span class="keyword">AutoDesk Inventor</span>
+						      <span class="keyword">OnShape</span>
+						      <span class="keyword">3D Printing</span>
+						      <span class="keyword">Laser Cutting</span>
+						  </div>
+					</div>
+			</div>
+		</section>
+		<section id="languages">
+			<p class="cross-heading">Languages</p>
+			<div class="item">
+				<div class="language">
+					English
+				</div>
+				<div class="fluency">
+					<em>Native speaker</em>
+				</div>
+			</div>
+			<div class="item">
+				<div class="language">
+					French
+				</div>
+				<div class="fluency">
+					<em>Familiar</em>
+				</div>
+			</div>
+		</section>
+	</body>
+
+	<div id="footer">
+		<em>Generated using <a href="https://jsonresume.org/">JSON Resume</a></em>
+	</div>
+
+	<script>
+		var HOVER_ACTIVATE_TIME = 750;
+		var HOVER_OPACITY = 0.75;
+
+		$(".full-section").hide();
+		$(".summary-section").show();
+
+
+		var otherSlidingDownTimeout = null;
+		$(".section-container").hover(function() {
+			// $(this).css("opacity", HOVER_OPACITY);
+			$(this).addClass("section-container-hover");
+
+			if (otherSlidingDownTimeout === null) {
+				let $fullSection = $(this).children(".full-section");
+				otherSlidingDownTimeout = window.setTimeout(function() {
+					$fullSection.slideDown("med", function() {
+						window.clearTimeout(otherSlidingDownTimeout);
+						otherSlidingDownTimeout = null;
+					});
+				}, HOVER_ACTIVATE_TIME);
+			} else {
+				window.clearTimeout(otherSlidingDownTimeout);
+				otherSlidingDownTimeout = null;
+			}
+		}, function() {
+				// $(this).css("opacity", "1");
+				$(this).removeClass("section-container-hover");
+
+				$(this).children(".full-section").slideUp("med");
+				window.clearTimeout(otherSlidingDownTimeout);
+				otherSlidingDownTimeout = null;
+		});
+	</script>
+</html>
