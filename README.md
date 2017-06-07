@@ -1,4 +1,4 @@
-# personal-website
+# mckennacisler.github.io
 The backend files for my personal website.
 
 Generated using [JSON Resume](http://jsonresume.org/), a useful standardized resume format supported by a library of themes.
