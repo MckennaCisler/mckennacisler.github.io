@@ -1,0 +1,185 @@
+{
+	"basics": {
+		"name": "Mckenna Cisler",
+		"label": "Computer Scientist",
+		"picture": "",
+		"email": "mckennacisler@gmail.com",
+		"phone": "(603) 991-2470",
+		"website": "http://www.mcisler.com",
+		"summary": "I'm a second-year student who enjoys programming in all its forms. My interests are still developing but I'm very interested in large information systems, networking, and big data.",
+		"location": {
+			"address": "492 Birches Road",
+			"postalCode": "NH 03586",
+			"city": "Sugar Hill",
+			"countryCode": "United States",
+			"region": "New Hampshire"
+		},
+		"profiles": [{
+				"network": "LinkedIn",
+				"username": "mckenna-cisler",
+				"url": "www.linkedin.com/in/mckenna-cisler"
+			},
+			{
+				"network": "GitHub",
+				"username": "MckennaCisler",
+				"url": "www.github.com/MckennaCisler"
+			}
+		]
+	},
+	"work": [{
+			"company": "Humanity-Centered Robotics Initiative",
+			"position": "Robotics Technician",
+			"website": "http://hcri.brown.edu",
+			"startDate": "2016-09-06",
+			"summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I worked as a technician on robots involved in research, development projects, and demonstrations. I also work on some pilot projects in humanity-centered robot design.",
+			"highlights": [
+				"Worked on hardware interfacing and user interaction design for “Tablebot” – a novel mobile telepresence robot designed to resemble furniture",
+				"Co-developed node.js & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department",
+				"Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car",
+				"Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator"
+			]
+		},
+		{
+			"company": "White Mountain Science, Inc.",
+			"position": "Educational Resource Developer / Camp Instructor",
+			"website": "http://whitemountainscience.org",
+			"startDate": "2015-01-02",
+			"summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I worked as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
+			"highlights": [
+				"Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials",
+				"Developed, assembled and demoed educational tools and resources, including IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
+				"Planned and ran weeklong STEAM workshops for 3rd – 9th graders"
+			]
+		},
+		{
+		"company": "Brown Space Engineering",
+		"position": "Flight Software Programmer",
+		"website": "http://brownspace.org/",
+		"startDate": "2016-09-06",
+		"summary": "Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It hopes to achieve this by launching a fully open-source CubeSet in Q2 2018 capable of being reproduced for ~$5000 in under a year. ",
+		"highlights": [
+			"Wrote RTOS tasks in C for multi-frequency data recording and transmission packaging",
+			"Co-designed data collection structures and transmission schema",
+			"Worked on boot sequence and satellite state handling systems"
+		]
+	}
+	],
+	"volunteer": [],
+	"education": [{
+		"institution": "Brown University",
+		"area": "Computer Science",
+		"studyType": "Bachelors",
+		"startDate": "2016-09-06",
+		"endDate": "2020-05-27",
+		"courses": [
+			"CSCI 0190 - Advanced Introduction to Computer Science",
+			"CSCI 0320 - Introduction to Software Engineering",
+			"CSCI 0220 - Introduction to Discrete Structures and Probability"
+		]
+	}],
+	"projects": [
+	  {
+	    "name": "Wikispeedia",
+      "description": "Webapp frontend for the Wikipedia Game",
+      "highlights": [
+        "Worked on websocket communication framework, Wikipedia crawling and caching, and dynamic generation of page pairs",
+        "CSCI 0320 Term Project (team)"
+      ],
+      "keywords": [
+        "Java", "Javascript", "SQLite", "Wikipedia"
+      ],
+      "startDate": "2017-03-18",
+      "endDate": "2017-05-12",
+      "url": "wikispeedia.herokuapp.com",
+      "type": "application"
+    },
+    {
+	    "name": "The Social Playlist",
+      "description": "Music queue web app for crowd-sourced playlists",
+      "highlights": [
+        "For Hack@Brown hackathon (team)"
+      ],
+      "keywords": [
+        "Meteor", "Bootstrap", "YouTube API"
+      ],
+      "startDate": "2017-01-04",
+      "endDate": "2017-01-05",
+      "type": "application",
+      "url": "https://github.com/jkennan/The-Social-Playlist"
+    },
+    {
+	    "name": "Hubway Maps",
+      "description": "Visualization of socioeconomic data on Hubway stations in Cambridge, MA",
+      "highlights": [
+        "For Brown Datathon hackathon (team)"
+      ],
+      "keywords": [
+        "D3.js", "node.js"
+      ],
+      "startDate": "2017-03-04",
+      "endDate": "2017-03-05",
+      "url":"https://mckennacisler.github.io/hubway-maps/public/",
+      "type": "application"
+    },
+    {
+	    "name": "AlarmPi (individual)",
+      "description": "Raspberry Pi-based alarm clock with configuration interface",
+      "highlights": [
+				"Python Tornado backend for responsive configuration & alarm-setting web interface",
+        "3D printed case"
+      ],
+      "keywords": [
+        "Raspberry Pi", "Python", "Tornado"
+      ],
+      "startDate": "2016-03-04",
+      "endDate": "2017-04-05",
+      "url":"https://github.com/MckennaCisler/AlarmPi",
+      "type": "application"
+    }
+	],
+	"awards": [],
+	"skills": [{
+			"name": "Software Development",
+			"level": "Intermediate",
+			"keywords": [
+				"Java",
+				"Python",
+				"C",
+				"C++",
+				"Linux"
+			]
+		},
+		{
+			"name": "Web Development",
+			"level": "Intermediate",
+			"keywords": [
+				"HTML",
+				"Javascript",
+				"React.js",
+				"node.js",
+				"Bootstrap",
+				"jQuery",
+				"Python Tornado"
+			]
+		},
+		{
+			"name": "CAD & Rapid Prototyping",
+			"level": "Intermediate",
+			"keywords": [
+				"AutoDesk Inventor",
+				"OnShape",
+				"3D Printing",
+				"Laser Cutting"
+			]
+		}
+	],
+	"languages": [{
+			"language": "English",
+			"fluency": "Native speaker"
+		},
+		{
+			"language": "French",
+			"fluency": "Familiar"
+		}
+	]
+}
