@@ -690,13 +690,13 @@ blockquote {
 						<div id="contact" class="section-container">
 							<div class="summary-section">
 									<div class="email">
-										mckennacisler@gmail.com
+										<a href="mailto:mckennacisler@gmail.com">mckennacisler@gmail.com</a>
 									</div>
 							</div>
 							<div class="full-section">
-								<div class="website">
-									www.mcisler.com
-								</div>
+									<div class="website">
+										<a href="http://www.mcisler.com">www.mcisler.com</a>
+									</div>
 								<div class="phone">
 									(603) 991-2470
 								</div>
@@ -725,7 +725,7 @@ blockquote {
 						</div>
 					</div>
 					<div class="summary">
-						<p><em>I&#x27;m a second-year student who enjoys programming in all its forms. My interests are still developing but I&#x27;m very interested in large information systems, networking, and big data.</em></p>
+						<p><em>I'm a second-year student who enjoys programming in all its forms. My interests are still developing but I'm very interested in large information systems, networking, and big data.</em></p>
 					</div>
 					<section id="profiles">
 						<span class="item">
@@ -771,7 +771,7 @@ blockquote {
 							<p><em>HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I worked as a technician on robots involved in research, development projects, and demonstrations. I also work on some pilot projects in humanity-centered robot design.</em></p>
 						</div>
 						<ul class="highlights">
-							<li>Worked on hardware interfacing and user interaction design for “Tablebot” – a novel mobile telepresence robot designed to resemble furniture</li>
+							<li>Worked on hardware interfacing and user interaction design for “Tablebot” – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)</li>
 							<li>Co-developed node.js &amp; NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department</li>
 							<li>Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car</li>
 							<li>Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator</li>
@@ -796,10 +796,10 @@ blockquote {
 					</div>
 					<div class="full-section">
 						<div class="summary">
-							<p><em>A company interested in promoting STEM learning through instructional camps and development of education resources. I worked as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children&#x27;s camps.</em></p>
+							<p><em>A company interested in promoting STEM learning through instructional camps and development of education resources. I worked as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children&#x27;s camps. Shipped pilot set to local school</em></p>
 						</div>
 						<ul class="highlights">
-							<li>Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials</li>
+							<li>Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials; shipped demo to local school</li>
 							<li>Developed, assembled and demoed educational tools and resources, including IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface</li>
 							<li>Planned and ran weeklong STEAM workshops for 3rd – 9th graders</li>
 						</ul>
@@ -827,8 +827,9 @@ blockquote {
 						</div>
 						<ul class="highlights">
 							<li>Wrote RTOS tasks in C for multi-frequency data recording and transmission packaging</li>
-							<li>Co-designed data collection structures and transmission schema</li>
+							<li>Co-designed data collection structures and transmission schema; wrote reliablility tests</li>
 							<li>Worked on boot sequence and satellite state handling systems</li>
+							<li>Optimized data structures for RAM usage</li>
 						</ul>
 					</div>
 				</div>
@@ -842,7 +843,7 @@ blockquote {
 							Wikispeedia
 						</h3>
 						<div class="description">
-							<em>Webapp frontend for the Wikipedia Game</em>
+							<em>Webapp interface for the Wikipedia Game</em>
 						</div>
 						<div class="url">
 							<a href="http://wikispeedia.herokuapp.com">wikispeedia.herokuapp.com</a>
@@ -856,14 +857,19 @@ blockquote {
 						    <strong>1 month</strong> <em>Started Mar 2017</em>
 						  </div>
 						<ul class="highlights">
-							<li>Worked on websocket communication framework, Wikipedia crawling and caching, and dynamic generation of page pairs</li>
 							<li>CSCI 0320 Term Project (team)</li>
+							<li>Co-designed websocket communication framework to provide simple interface for frontend developers; solved race conditions and multithreading issues</li>
+							<li>Implemented backend game state and player coordination system; wrote oracle and AI players to play games randomly to test fairness system.</li>
+							<li>Implemented Wikipedia crawling; designed backend caching system</li>
+							<li>Implemented algorithms for dynamic and fault-tolerant generation of page pairs ("games") using recursive web scraping</li>
+							<li>Assisted in deploying to Heroku; optimized server memory usage for limited resources</li>
 						</ul>
 						  <div class="keywords container">
 						      <span class="keyword col-xs-1">Java</span>
 						      <span class="keyword col-xs-1">Javascript</span>
 						      <span class="keyword col-xs-1">SQLite</span>
 						      <span class="keyword col-xs-1">Wikipedia</span>
+						      <span class="keyword col-xs-1">Heroku</span>
 						  </div>
 					</div>
 				</div>
@@ -889,6 +895,9 @@ blockquote {
 						  </div>
 						<ul class="highlights">
 							<li>For Hack@Brown hackathon (team)</li>
+							<li>Integrated with YouTube to search for and play any song</li>
+							<li>Added persistent user authentication</li>
+							<li>Linked playlists and "lobby" list to backend database for persistence</li>
 						</ul>
 						  <div class="keywords container">
 						      <span class="keyword col-xs-1">Meteor</span>
@@ -919,10 +928,48 @@ blockquote {
 						  </div>
 						<ul class="highlights">
 							<li>For Brown Datathon hackathon (team)</li>
+							<li>Implemented scatter plot and assisted in implementing map to investigate possible correlations between wealth and presence of Hubway stations in neighborhoods</li>
 						</ul>
 						  <div class="keywords container">
 						      <span class="keyword col-xs-1">D3.js</span>
 						      <span class="keyword col-xs-1">node.js</span>
+						  </div>
+					</div>
+				</div>
+				<div class="item section-container">
+					<div class="summary-section">
+						<h3 class="name">
+								<icon title="application" class="project-icon fa fa-code" aria-hidden="true"></icon>
+							Citation Converter (individual)
+						</h3>
+						<div class="description">
+							<em>One-of-a-kind webapp for converting between competeting academic citation formats</em>
+						</div>
+						<div class="url">
+							<a href="https://www.youtube.com/watch?v=lN9b7lKUI3k">www.youtube.com/watch?v=lN9b7lKUI3k</a>
+						</div>
+					</div>
+					<div class="full-section">
+						<!-- For spacing  -->
+						<p></p>
+						  <div class="date">
+						    <icon class="fa fa-calendar" aria-hidden="true"></icon>
+						    <strong>2 years</strong> <em>Started Jul 2014</em>
+						  </div>
+						<ul class="highlights">
+							<li>Wrote Python-based citation conversion engine; ported to Javascript for use on web frontend.</li>
+							<li>Currently working on interfacing conversion engine with the Citation Style Language (CSL) to support 8000+ additional citation styles.</li>
+							<li>Wrote Apache/PHP backend, including bug reporting and recording system.</li>
+							<li>Deployed for two years at citationconverter.com</li>
+							<li><a href='https://www.youtube.com/watch?v=lN9b7lKUI3k'>Demo video</a></li>
+						</ul>
+						  <div class="keywords container">
+						      <span class="keyword col-xs-1">Javascript</span>
+						      <span class="keyword col-xs-1">Bootstrap</span>
+						      <span class="keyword col-xs-1">jQuery</span>
+						      <span class="keyword col-xs-1">Python</span>
+						      <span class="keyword col-xs-1">Apache</span>
+						      <span class="keyword col-xs-1">PHP</span>
 						  </div>
 					</div>
 				</div>
@@ -947,8 +994,9 @@ blockquote {
 						    <strong>1 year</strong> <em>Started Mar 2016</em>
 						  </div>
 						<ul class="highlights">
-							<li>Python Tornado backend for responsive configuration &amp; alarm-setting web interface</li>
-							<li>3D printed case</li>
+							<li>Wrote Python Tornado backend for responsive configuration & alarm-setting via a web interface</li>
+							<li>Wrote alarm monitoring daemon with sleep-cycle alignment algorithm</li>
+							<li>3D printed case and various custom electronics for user interface</li>
 						</ul>
 						  <div class="keywords container">
 						      <span class="keyword col-xs-1">Raspberry Pi</span>
@@ -1073,7 +1121,7 @@ blockquote {
 	</div>
 
 	<div id="footer">
-		<em>Generated using <a href="https://jsonresume.org/">JSON Resume</a></em>
+		<em><a href="https://www.npmjs.com/package/jsonresume-theme-concise">Theme</a> for <a href="https://jsonresume.org/">JSON Resume</a></em>
 	</div>
 	</body>
 
