@@ -110,7 +110,7 @@
       "name": "The Social Playlist",
       "description": "Music queue web app for crowd-sourced playlists",
       "highlights": [
-        "For Hack@Brown hackathon (team)",
+        "For Hack@Brown hackathon (team) - <a href='https://devpost.com/software/wikispeedia'>check out on devpost</a>",
         "Integrated with YouTube to search for and play any song",
         "Added persistent user authentication",
         "Linked playlists and \"lobby\" list to backend database for persistence"
@@ -148,7 +148,7 @@
         "Wrote Python-based citation conversion engine; ported to Javascript for use on web frontend.",
         "Currently working on interfacing conversion engine with the Citation Style Language (CSL) to support 8000+ additional citation styles.",
         "Wrote Apache/PHP backend, including bug reporting and recording system.",
-        "Deployed for two years at citationconverter.com",
+        "Deployed for 2+ years at <a href='http://www.citationconverter.com'>www.citationconverter.com</a>",
         "<a href='https://www.youtube.com/watch?v=lN9b7lKUI3k'>Demo video</a>"
       ],
       "keywords": [
@@ -160,7 +160,7 @@
         "PHP"
       ],
       "startDate": "2014-07-20",
-      "url": "https://www.youtube.com/watch?v=lN9b7lKUI3k",
+      "url": "www.citationconverter.com",
       "type": "application"
     },
     {
