@@ -35,7 +35,7 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I worked as a technician on robots involved in research, development projects, and demonstrations. I also work on some pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Worked on hardware interfacing and user interaction design for “Tablebot” – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
+        "Worked on hardware interfacing and user interaction design for “<a href='https://vimeo.com/225230975'>Tablebot</a>” – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Co-developed node.js & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department",
         "Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car",
         "Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator"

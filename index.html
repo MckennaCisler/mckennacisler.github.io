@@ -500,16 +500,31 @@ blockquote {
 }
 
 .cross-heading {
-	border-bottom-style: solid;
-	border-width: 1px;
-	border-color: #aaa;
-
 	width: 100%;
-	font-size:1.25rem;
+	margin-top: 1.25em;
+	text-align: center;
+}
+
+.cross-heading > p {
+	margin: 0;
+	font-size:1.4rem;
 	font-family: "Lato", sans-serif;
 	text-transform: uppercase;
+	display: inline-block;
 
-	margin-top: 1.25em;
+	background: #fafafa;
+	padding: 0 0.75em;
+}
+
+.cross-heading::after {
+	height: 1px;
+	content: "";
+	background: #aaa;
+	width: 100%;
+	display: block;
+	position: relative;
+	z-index: -100;
+	top: -1em;
 }
 
 .item {
@@ -749,7 +764,7 @@ blockquote {
 					</section>
 				</section>
 			<section id="work">
-				<p class="cross-heading">Work</p>
+				<div class="cross-heading"><p>Work</p></div>
 				<div class="item section-container">
 					<div class="summary-section">
 						<h3 class="name">
@@ -760,7 +775,7 @@ blockquote {
 						</div>
 						  <div class="date">
 						    <icon class="fa fa-calendar" aria-hidden="true"></icon>
-						    <strong>9 months</strong> <em>Started Sep 2016</em>
+						    <strong>10 months</strong> <em>Started Sep 2016</em>
 						  </div>
 						<div class="website">
 							<a href="http://hcri.brown.edu">hcri.brown.edu</a>
@@ -771,8 +786,8 @@ blockquote {
 							<p><em>HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I worked as a technician on robots involved in research, development projects, and demonstrations. I also work on some pilot projects in humanity-centered robot design.</em></p>
 						</div>
 						<ul class="highlights">
-							<li>Worked on hardware interfacing and user interaction design for “Tablebot” – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)</li>
-							<li>Co-developed node.js &amp; NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department</li>
+							<li>Worked on hardware interfacing and user interaction design for “<a href='https://vimeo.com/225230975'>Tablebot</a>” – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)</li>
+							<li>Co-developed node.js & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department</li>
 							<li>Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car</li>
 							<li>Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator</li>
 						</ul>
@@ -815,7 +830,7 @@ blockquote {
 						</div>
 						  <div class="date">
 						    <icon class="fa fa-calendar" aria-hidden="true"></icon>
-						    <strong>9 months</strong> <em>Started Sep 2016</em>
+						    <strong>10 months</strong> <em>Started Sep 2016</em>
 						  </div>
 						<div class="website">
 							<a href="http://brownspace.org/">brownspace.org</a>
@@ -835,7 +850,7 @@ blockquote {
 				</div>
 			</section>
 			<section id="work">
-				<p class="cross-heading">Projects</p>
+				<div class="cross-heading"><p>Projects</p></div>
 				<div class="item section-container">
 					<div class="summary-section">
 						<h3 class="name">
@@ -1007,7 +1022,7 @@ blockquote {
 				</div>
 			</section>
 			<section id="education">
-				<p class="cross-heading">Education</p>
+				<div class="cross-heading"><p>Education</p></div>
 				<div class="item section-container">
 					<div class="summary-section">
 						<div class="institution">
@@ -1038,7 +1053,7 @@ blockquote {
 				</div>
 			</section>
 			<section id="skills">
-				<p class="cross-heading">Skills</p>
+				<div class="cross-heading"><p>Skills</p></div>
 				<div class="item section-container">
 					<div class="summary-section">
 						<div class="skill-name">
@@ -1099,7 +1114,7 @@ blockquote {
 				</div>
 			</section>
 			<section id="languages">
-				<p class="cross-heading">Languages</p>
+				<div class="cross-heading"><p>Languages</p></div>
 				<div class="item">
 					<div class="language">
 						English
