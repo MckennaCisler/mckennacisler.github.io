@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Mckenna Cisler",
-    "label": "Computer Scientist",
+    "label": "Software Engineer",
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "phone": "(603) 991-2470",
     "website": "http://www.mcisler.com",
-    "summary": "I'm a second-year student who enjoys programming in all its forms. My interests are still developing but I'm very interested in large information systems, networking, and big data.",
+    "summary": "I'm a second-year student who enjoys programming in all its forms. My interests are still developing but I'm very interested in large information systems, networking, systems engineering, and big data.",
     "location": {
       "address": "492 Birches Road",
       "postalCode": "NH 03586",
@@ -35,7 +35,7 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I worked as a technician on robots involved in research, development projects, and demonstrations. I also work on some pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Worked on hardware interfacing and user interaction design for “<a href='https://vimeo.com/225230975'>Tablebot</a>” – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
+        "Worked on hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Co-developed node.js & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department",
         "Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car",
         "Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator"
@@ -49,7 +49,7 @@
       "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I worked as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps. Shipped pilot set to local school",
       "highlights": [
         "Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials; shipped demo to local school",
-        "Developed, assembled and demoed educational tools and resources, including IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
+        "Developed, assembled and demoed educational tools and resources, including High Altitude Balloon (HAB) payload and retrieval systems, IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
         "Planned and ran weeklong STEAM workshops for 3rd – 9th graders"
       ]
     },
@@ -61,9 +61,9 @@
       "summary": "Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It hopes to achieve this by launching a fully open-source CubeSet in Q2 2018 capable of being reproduced for ~$5000 in under a year. ",
       "highlights": [
         "Wrote RTOS tasks in C for multi-frequency data recording and transmission packaging",
-        "Co-designed data collection structures and transmission schema; wrote reliablility tests",
+        "Co-designed data collection structures and transmission schema; wrote reliability tests",
         "Worked on boot sequence and satellite state handling systems",
-        "Optimized data structures for RAM usage"
+        "Optimized data structure RAM usage; converted all systems to static memory allocation"
       ]
     }
   ],
@@ -75,6 +75,7 @@
       "studyType": "Bachelors",
       "startDate": "2016-09-06",
       "endDate": "2020-05-27",
+      "gpa":"3.83",
       "courses": [
         "CSCI 0190 - Advanced Introduction to Computer Science",
         "CSCI 0320 - Introduction to Software Engineering",
