@@ -4,11 +4,9 @@
     "label": "Software Engineer",
     "picture": "",
     "email": "mckennacisler@gmail.com",
-    "phone": "(603) 991-2470",
     "website": "http://www.mcisler.com",
     "summary": "I'm a second-year student who enjoys programming in all its forms. My interests are still developing but I'm very interested in software engineering, large information systems, networking, and systems engineering.",
     "location": {
-      "address": "492 Birches Road",
       "postalCode": "NH 03586",
       "city": "Sugar Hill",
       "countryCode": "United States",
@@ -35,23 +33,11 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
+        "Working on generalized video conferencing and teleoperation web platform for telepresence robots",
         "Working on hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Co-developing node.js & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department",
         "Setting up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car",
         "Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator"
-      ]
-    },
-    {
-      "company": "White Mountain Science, Inc.",
-      "position": "Educational Resource Developer / Camp Instructor",
-      "website": "http://whitemountainscience.org",
-      "startDate": "2015-01-02",
-      "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
-      "highlights": [
-        "Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials; shipped demo to local school",
-        "Developing and configuring High Altitude Balloon (HAB) on-board, tracking, and retrieval systems",
-        "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
-        "Planning and running weeklong STEAM workshops for 3rd – 9th graders"
       ]
     },
     {
@@ -65,6 +51,19 @@
         "Co-designing data collection structures and transmission schema; writing reliability tests",
         "Working on boot sequence and satellite state handling systems",
         "Optimized data structure RAM usage; converted all systems to static memory allocation"
+      ]
+    },
+    {
+      "company": "White Mountain Science, Inc.",
+      "position": "Educational Resource Developer / Camp Instructor",
+      "website": "http://whitemountainscience.org",
+      "startDate": "2015-01-02",
+      "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
+      "highlights": [
+        "Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials; shipped demo to local school",
+        "Developing and configuring High Altitude Balloon (HAB) on-board, tracking, and retrieval systems",
+        "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
+        "Planning and running weeklong STEAM workshops for 3rd – 9th graders"
       ]
     }
   ],
@@ -91,7 +90,7 @@
       "highlights": [
         "CSCI 0320 Term Project (team)",
         "Co-designed websocket communication framework to provide simple interface for frontend developers; solved race conditions and multithreading issues",
-        "Implemented backend game state and player coordination system; wrote oracle and AI players to play games randomly to test fairness system.",
+        "Implemented backend game state and player coordination system; wrote oracle and AI players to play games randomly in order to test game mechanics and fairness systems",
         "Implemented Wikipedia crawling; designed backend caching system",
         "Implemented algorithms for dynamic and fault-tolerant generation of page pairs (\"games\") using recursive web scraping",
         "Assisted in deploying to Heroku; optimized server memory usage for limited resources"
