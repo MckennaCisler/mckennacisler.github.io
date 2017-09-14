@@ -79,7 +79,9 @@
       "courses": [
         "CSCI 0190 - Advanced Introduction to Computer Science",
         "CSCI 0320 - Introduction to Software Engineering",
-        "CSCI 0220 - Introduction to Discrete Structures and Probability"
+        "CSCI 0220 - Introduction to Discrete Structures and Probability",
+        "CSCI 0330 - Introduction to Computer Systems",
+        "ENGN 1630 - Digital Electronics Systems Design"
       ]
     }
   ],
