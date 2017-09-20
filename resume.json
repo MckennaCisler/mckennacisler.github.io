@@ -58,6 +58,7 @@
       "position": "Educational Resource Developer / Camp Instructor",
       "website": "http://whitemountainscience.org",
       "startDate": "2015-01-02",
+      "endDate": "2017-08-28",
       "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
       "highlights": [
         "Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school",
@@ -90,11 +91,11 @@
       "name": "Wikispeedia",
       "description": "Webapp interface for the Wikipedia Game",
       "highlights": [
-        "CSCI 0320 Term Project (team)",
+        "Introduction to Software Engineering Term Project (team)",
         "Co-designed websocket communication framework to provide simple interface for frontend developers; solved race conditions and multithreading issues",
         "Implemented backend game state and player coordination system; wrote oracle and AI players to play games randomly in order to test game mechanics and fairness systems",
-        "Implemented Wikipedia crawling; designed backend caching system",
         "Implemented algorithms for dynamic and fault-tolerant generation of page pairs (\"games\") using recursive web scraping",
+        "Designed Wikipedia page link caching system to speed up page crawling and game generation",
         "Assisted in deploying to Heroku; decreased server memory usage by 60% to use with limited resources"
       ],
       "keywords": [
