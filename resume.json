@@ -5,7 +5,7 @@
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
-    "summary": "I'm a second-year student who enjoys programming in all its forms. My interests are still developing but I'm very interested in software engineering, large information systems, networking, and systems engineering.",
+    "summary": "I'm a second-year student who enjoys programming in all its forms. I'm very interested in software engineering, large information systems, networking, avionics software, and systems engineering.",
     "location": {
       "postalCode": "NH 03586",
       "city": "Sugar Hill",
@@ -22,6 +22,11 @@
         "network": "GitHub",
         "username": "MckennaCisler",
         "url": "www.github.com/MckennaCisler"
+      },
+      {
+        "network": "Devpost",
+        "username": "MckennaCisler (Devpost)",
+        "url": "www.devpost.com/MckennaCisler"
       }
     ]
   },
@@ -61,7 +66,7 @@
       "endDate": "2017-08-28",
       "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
       "highlights": [
-        "Developed an ATtiny85-based “paper circuit” controller to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school",
+        "Developed an <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school",
         "Designed and configured High Altitude Balloon (HAB) on-board, tracking, and retrieval systems",
         "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, Javascript & Scratch tutorials, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
         "Planned and ran week-long STEAM workshops for 3rd – 9th graders"
