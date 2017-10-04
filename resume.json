@@ -96,6 +96,7 @@
       "name": "Wikispeedia",
       "description": "Webapp interface for the Wikipedia Game",
       "highlights": [
+        "<a href='https://github.com/MckennaCisler/wikispeedia'>Repository</a>",
         "Introduction to Software Engineering Term Project (team)",
         "Co-designed websocket communication framework to provide simple interface for frontend developers; solved race conditions and multithreading issues",
         "Implemented backend game state and player coordination system; wrote oracle and AI players to play games randomly in order to test game mechanics and fairness systems",
@@ -154,13 +155,14 @@
         "PHP"
       ],
       "startDate": "2014-07-20",
-      "url": "www.citationconverter.com",
+      "url": "citationconverter.com",
       "type": "application"
     },
     {
       "name": "Hubway Maps",
       "description": "Visualization of socioeconomic data on Hubway stations in Cambridge, MA",
       "highlights": [
+        "<a href='https://github.com/MckennaCisler/hubway-maps'>Repository</a>",
         "For Brown Datathon (team)",
         "Implemented scatter plot and assisted in implementing map to investigate possible correlations between wealth and presence of Hubway stations in neighborhoods"
       ],
