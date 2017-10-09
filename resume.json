@@ -211,7 +211,7 @@
       "name": "Web Development",
       "level": "Intermediate",
       "keywords": [
-        "HTML",
+        "HTML/CSS",
         "Javascript",
         "React.js",
         "NodeJS",
@@ -228,7 +228,17 @@
         "OnShape",
         "3D Printing",
         "Laser Cutting",
-	"Lathe"
+        "Lathe"
+      ]
+    },
+    {
+      "name": "Graphic Design & Media",
+      "level": "Intermediate",
+      "keywords": [
+        "Blender",
+        "Adobe Premier",
+        "GIMP",
+        "Adobe Photoshop"
       ]
     }
   ],
