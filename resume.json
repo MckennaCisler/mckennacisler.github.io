@@ -38,7 +38,7 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Developing ultrasonic-communication-based object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)"
+        "Developing ultrasonic-communication-based object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)",
         "Developing generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
         "Developing hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Co-developing NodeJS & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials",
@@ -242,7 +242,8 @@
             "Various digital/analog components and circuits",
             "Raspberry Pi",
             "Arduino",
-            "Licensed Amateur Radio Operator (callsign KC1ICW)",
+	    "FIRST Robotics Competition Alum",
+            "Licensed Amateur Radio Operator (callsign KC1ICW)"
         ]
     },
     {
