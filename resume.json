@@ -38,6 +38,7 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
+        "Developing ultrasonic-communication-based object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)"
         "Developing generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
         "Developing hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Co-developing NodeJS & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials",
@@ -66,7 +67,7 @@
       "endDate": "2017-08-28",
       "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
       "highlights": [
-        "Developed an <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school",
+        "Developed an <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school. See <a href='http://www.whitemountainscience.org/wmsi-blog/2017/1/17/development-of-the-spider-paper-circuit-controller'>blog post</a>",
         "Designed and configured High Altitude Balloon (HAB) on-board, tracking, and retrieval systems",
         "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, Javascript & Scratch tutorials, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
         "Planned and ran week-long STEAM workshops for 3rd – 9th graders"
@@ -230,6 +231,19 @@
         "Laser Cutting",
         "Lathe"
       ]
+    },
+    {
+        "name": "Computer & Embedded Engineering",
+        "level": "Intermediate",
+        "keywords": [
+            "Atmel MCUs",
+            "Real-time operating systems (FreeRTOS)",
+            "FPGAs (minimal)",
+            "Various digital/analog components and circuits",
+            "Raspberry Pi",
+            "Arduino",
+            "Licensed Amateur Radio Operator (callsign KC1ICW)",
+        ]
     },
     {
       "name": "Graphic Design & Media",
