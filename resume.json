@@ -53,9 +53,11 @@
       "startDate": "2016-09-06",
       "summary": "Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It hopes to achieve this by demonstrating the launch of a fully open-source CubeSat in Q2 2018 capable of being reproduced for ~$5000 in under a year. ",
       "highlights": [
-        "Developing RTOS tasks in C for multi-frequency data recording and transmission packaging",
-        "Co-designing data collection structures and transmission schema; writing reliability tests",
-        "Co-developing boot sequence and satellite state handling systems",
+        "Developed satellite OS; wrote RTOS tasks in C for multi-frequency data recording and satellite actions",
+        "Wrote concurrency systems for protecting hardware interfaces and critical satellite operations",
+        "Co-developed boot sequence and satellite state handling systems",
+        "Wrote bootloader to rewrite program memory from RAD-safe external memory; uploaded final satellite binary before launch",
+        "Co-designed data collection structures and transmission schema; wrote reliability tests",
         "Optimized data structure RAM usage; converted all systems to safer static memory allocation"
       ]
     },
@@ -82,7 +84,7 @@
       "studyType": "Bachelors",
       "startDate": "2016-09-06",
       "endDate": "2020-05-27",
-      "gpa":"3.83",
+      "gpa":"3.80",
       "courses": [
         "CSCI 0190 - Advanced Introduction to Computer Science",
         "CSCI 0320 - Introduction to Software Engineering",
@@ -205,7 +207,8 @@
         "Python",
         "C",
         "C++",
-        "Linux"
+        "Linux",
+        "Go"
       ]
     },
     {
@@ -239,10 +242,11 @@
             "Atmel MCUs",
             "Real-time operating systems (FreeRTOS)",
             "FPGAs (minimal)",
+            "Verilog",
             "Various digital/analog components and circuits",
             "Raspberry Pi",
             "Arduino",
-	    "FIRST Robotics Competition Alum",
+	        "FIRST Robotics Competition Alum",
             "Licensed Amateur Radio Operator (callsign KC1ICW)"
         ]
     },
