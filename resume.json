@@ -5,7 +5,7 @@
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
-    "summary": "I'm a second-year student who enjoys programming in all its forms. I'm very interested in software engineering, large information systems, networking, avionics software, and systems engineering.",
+    "summary": "I'm a student with an interest in the intersection of software and hardware. I'm very interested in software engineering, radio, networking and information systems, avionics and control software, and systems engineering.",
     "location": {
       "postalCode": "NH 03586",
       "city": "Sugar Hill",
@@ -32,38 +32,55 @@
   },
   "work": [
     {
+      "company": "The MITRE Corporation",
+      "position": "Software Engineering Intern",
+      "website": "http://mitre.org/",
+      "startDate": "2018-07-10",
+      "endDate": "2018-08-24",
+      "summary": "MITRE is non-profit which operates seven federally funded research and development centers (FFRDCs) spanning defense, aviation, healthcare, security, judiciary practice, and civil systems.",
+      "highlights": [
+        "Android app to automate testing of a radio network. The app controlled components of an additional client app to produce realistic simulated traffic on the network",
+        "Integrated system with an existing control server for centralized test configuration and execution",
+        "Enabled execution of a 200-node radio test by eliminating the need for human participants to operate phones"
+      ]
+    },
+    {
+      "company": "Brown Space Engineering",
+      "position": "Technical Lead / Flight Software Programmer",
+      "website": "http://brownspace.org/",
+      "startDate": "2016-09-06",
+      "summary": "Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It has demonstated this by succesfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
+      "highlights": [
+        "Satellite real time operating system; wrote RTOS tasks in C for data recording and satellite actions",
+        "Concurrency systems for protecting hardware interfaces and critical satellite operations",
+        "Boot sequence and satellite state handling systems",
+        "Bootloader to correct radiation-vulnerable program memory based on RAD-safe external memory; uploaded final satellite binary before launch",
+        "Data collection protocols and transmission schema; performed link budget calculations",
+        "Optimized data structure RAM usage; converted all systems to safer static memory allocation",
+        "Raspberry Pi-based ground station software and hardware for all primary groundstations; assisted in integrating radio systems",
+        "Contributed to data processing and presentation systems"
+      ]
+    },
+    {
       "company": "Humanity-Centered Robotics Initiative",
       "position": "Robotics Technician",
       "website": "http://hcri.brown.edu",
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Developing ultrasonic-communication-based object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)",
-        "Developing generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
-        "Developing hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
-        "Co-developing NodeJS & NodeMCU-based wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials",
-        "Setting up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car",
-        "Worked on Raspberry Pi and OpenCV-based dice-reading randomness generator"
-      ]
-    },
-    {
-      "company": "Brown Space Engineering",
-      "position": "Flight Software Programmer",
-      "website": "http://brownspace.org/",
-      "startDate": "2016-09-06",
-      "summary": "Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It hopes to achieve this by demonstrating the launch of a fully open-source CubeSat in Q2 2018 capable of being reproduced for ~$5000 in under a year. ",
-      "highlights": [
-        "Developed satellite OS; wrote RTOS tasks in C for multi-frequency data recording and satellite actions",
-        "Wrote concurrency systems for protecting hardware interfaces and critical satellite operations",
-        "Co-developed boot sequence and satellite state handling systems",
-        "Wrote bootloader to rewrite program memory from RAD-safe external memory; uploaded final satellite binary before launch",
-        "Co-designed data collection structures and transmission schema; wrote reliability tests",
-        "Optimized data structure RAM usage; converted all systems to safer static memory allocation"
+        "Hardware/software design and manufacture of drivechain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
+        "Analytics logging API and database for studying user interaction with an assistive toy for diabetic children (NodeJS, MongoDB)",
+        "Software frontend for 5-camera research study recording system; automated recording and post-processing of visual and auditory data of study enviornment (Python, PointGrey, GigE)",
+        "Ultrasonic object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)",
+        "Generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
+        "Hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
+        "Wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (NodeJS, NodeMCU)",
+        "Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car"
       ]
     },
     {
       "company": "White Mountain Science, Inc.",
-      "position": "Educational Resource Developer / Camp Instructor",
+      "position": "Educational Resource Developer / Instructor",
       "website": "http://whitemountainscience.org",
       "startDate": "2015-01-02",
       "endDate": "2017-08-28",
@@ -162,6 +179,23 @@
       "type": "application"
     },
     {
+      "name": "Q-Learning Checkers AI",
+      "description": "Basic Q-Learning checkers AI opponent built with TensorFlow",
+      "highlights": [
+        "For Hack@Brown team",
+        "Implemented checkers game for compatibility with Q-learning",
+        "Assisted in designing neural network structure for Q function"
+      ],
+      "keywords": [
+        "Python",
+        "TensorFlow"
+      ],
+      "startDate": "2018-02-03",
+      "endDate": "2018-02-04",
+      "url": "https://github.com/vrnmthr/cheQers",
+      "type": "application"
+    },
+    {
       "name": "Hubway Maps",
       "description": "Visualization of socioeconomic data on Hubway stations in Cambridge, MA",
       "highlights": [
@@ -208,7 +242,8 @@
         "C",
         "C++",
         "Linux",
-        "Go"
+        "Go",
+        "Android"
       ]
     },
     {
@@ -217,8 +252,8 @@
       "keywords": [
         "HTML/CSS",
         "Javascript",
-        "React.js",
-        "NodeJS",
+        "React",
+        "Node",
         "Bootstrap",
         "jQuery",
         "Python Tornado"
@@ -232,6 +267,7 @@
         "OnShape",
         "3D Printing",
         "Laser Cutting",
+        "Manual CNC",
         "Lathe"
       ]
     },
@@ -239,15 +275,16 @@
         "name": "Computer & Embedded Engineering",
         "level": "Intermediate",
         "keywords": [
-            "Atmel MCUs",
-            "Real-time operating systems (FreeRTOS)",
-            "FPGAs (minimal)",
-            "Verilog",
-            "Various digital/analog components and circuits",
             "Raspberry Pi",
+            "Real-time operating systems (FreeRTOS)",
+            "Atmel MCUs",
             "Arduino",
-	        "FIRST Robotics Competition Alum",
-            "Licensed Amateur Radio Operator (callsign KC1ICW)"
+            "Various digital/analog components and circuits",
+            "Verilog",
+            "FPGAs (minimal)",
+            "GNU Radio",
+            "Licensed Amateur Radio Operator (callsign KC1ICW)",
+            "FIRST Robotics Competition Alum"
         ]
     },
     {
