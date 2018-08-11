@@ -37,28 +37,29 @@
       "website": "http://mitre.org/",
       "startDate": "2018-07-10",
       "endDate": "2018-08-24",
-      "summary": "MITRE is non-profit which operates seven federally funded research and development centers (FFRDCs) spanning defense, aviation, healthcare, security, judiciary practice, and civil systems.",
+      "summary": "MITRE is non-profit which operates seven federally-funded research and development centers (FFRDCs) spanning defense, aviation, healthcare, security, judiciary practice, and civil systems.",
       "highlights": [
-        "Android app to automate testing of a radio network. The app controlled components of an additional client app to produce realistic simulated traffic on the network",
+        "Built Android app to automate testing of a radio network. The app used UI automation to control components of a client app in order to produce realistic simulated traffic on the network",
         "Integrated system with an existing control server for centralized test configuration and execution",
         "Enabled execution of a 200-node radio test by eliminating the need for human participants to operate phones"
       ]
     },
     {
       "company": "Brown Space Engineering",
-      "position": "Technical Lead / Flight Software Programmer",
+      "position": "Technical Lead / Flight Software Lead",
       "website": "http://brownspace.org/",
       "startDate": "2016-09-06",
-      "summary": "Brown Space Engineering is a club at Brown University dedicated to making space flight more accessible. It has demonstated this by succesfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
+      "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
-        "Satellite real time operating system; wrote RTOS tasks in C for data recording and satellite actions",
-        "Concurrency systems for protecting hardware interfaces and critical satellite operations",
-        "Boot sequence and satellite state handling systems",
-        "Bootloader to correct radiation-vulnerable program memory based on RAD-safe external memory; uploaded final satellite binary before launch",
-        "Data collection protocols and transmission schema; performed link budget calculations",
+        "Designed satellite real-time operating system; wrote RTOS tasks in C for data recording and satellite actions",
+        "Wrote concurrency systems for protecting hardware interfaces and managing critical satellite operations",
+        "Developed boot sequence and OS state handling systems",
+        "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; uploaded final satellite binary before launch",
+        "Designed data collection protocols and transmission schema; performed link budget calculations",
         "Optimized data structure RAM usage; converted all systems to safer static memory allocation",
-        "Raspberry Pi-based ground station software and hardware for all primary groundstations; assisted in integrating radio systems",
-        "Contributed to data processing and presentation systems"
+        "Developed Raspberry Pi-based ground station software and hardware for all primary groundstations; assisted in integrating radio systems",
+        "Contributed to data processing and presentation systems for ground station network",
+        "Performed analyses of satellite telemetry to isolate software issues and explain anomalous satellite behavior"
       ]
     },
     {
@@ -68,13 +69,13 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Hardware/software design and manufacture of drivechain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
-        "Analytics logging API and database for studying user interaction with an assistive toy for diabetic children (NodeJS, MongoDB)",
-        "Software frontend for 5-camera research study recording system; automated recording and post-processing of visual and auditory data of study enviornment (Python, PointGrey, GigE)",
-        "Ultrasonic object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)",
-        "Generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
-        "Hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
-        "Wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (NodeJS, NodeMCU)",
+        "Designed and built hardware and software of drivechain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
+        "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (NodeJS, MongoDB)",
+        "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing of visual and auditory data of study environment (Python, PointGrey, GigE)",
+        "Prototyped ultrasonic object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)",
+        "Prototyped generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
+        "Responsible for hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
+        "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (NodeJS, NodeMCU)",
         "Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car"
       ]
     },
@@ -87,7 +88,7 @@
       "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
       "highlights": [
         "Developed an <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school. See <a href='http://www.whitemountainscience.org/wmsi-blog/2017/1/17/development-of-the-spider-paper-circuit-controller'>blog post</a>",
-        "Designed and configured High Altitude Balloon (HAB) on-board, tracking, and retrieval systems",
+        "Designed High Altitude Balloon (HAB) on-board, tracking, and retrieval systems and procedures",
         "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, Javascript & Scratch tutorials, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
         "Planned and ran week-long STEAM workshops for 3rd – 9th graders"
       ]
@@ -135,25 +136,6 @@
       "endDate": "2017-05-12",
       "url": "wikispeedia.herokuapp.com",
       "type": "application"
-    },
-    {
-      "name": "The Social Playlist",
-      "description": "Music queue web app for crowd-sourced playlists",
-      "highlights": [
-        "For Hack@Brown hackathon (team) - <a href='https://devpost.com/software/wikispeedia'>check out on devpost</a>",
-        "Integrated with YouTube to search for and play any song",
-        "Added persistent user authentication",
-        "Linked playlists and \"lobby\" list to backend database for persistence"
-      ],
-      "keywords": [
-        "Meteor",
-        "Bootstrap",
-        "YouTube API"
-      ],
-      "startDate": "2017-01-04",
-      "endDate": "2017-01-05",
-      "type": "application",
-      "url": "https://github.com/jkennan/The-Social-Playlist"
     },
     {
       "name": "Citation Converter (individual)",
@@ -211,6 +193,25 @@
       "endDate": "2017-03-05",
       "url": "https://mckennacisler.github.io/hubway-maps/public/",
       "type": "application"
+    },
+    {
+      "name": "The Social Playlist",
+      "description": "Music queue web app for crowd-sourced playlists",
+      "highlights": [
+        "For Hack@Brown hackathon (team) - <a href='https://devpost.com/software/wikispeedia'>check out on devpost</a>",
+        "Integrated with YouTube to search for and play any song",
+        "Added persistent user authentication",
+        "Linked playlists and \"lobby\" list to backend database for persistence"
+      ],
+      "keywords": [
+        "Meteor",
+        "Bootstrap",
+        "YouTube API"
+      ],
+      "startDate": "2017-01-04",
+      "endDate": "2017-01-05",
+      "type": "application",
+      "url": "https://github.com/jkennan/The-Social-Playlist"
     },
     {
       "name": "AlarmPi (individual)",
@@ -279,9 +280,9 @@
             "Real-time operating systems (FreeRTOS)",
             "Atmel MCUs",
             "Arduino",
-            "Various digital/analog components and circuits",
+            "Digital/analog components and circuits",
             "Verilog",
-            "FPGAs (minimal)",
+            "CPLDs/FPGAs (minimal)",
             "GNU Radio",
             "Licensed Amateur Radio Operator (callsign KC1ICW)",
             "FIRST Robotics Competition Alum"

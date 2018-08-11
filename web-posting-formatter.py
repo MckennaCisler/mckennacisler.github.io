@@ -49,6 +49,7 @@ def main():
     with open(FILENAME, "r") as f:
         resume = json.load(f)
         print_resume(resume)
+    input("Press enter to close")
 
 if __name__ == "__main__":
     main()
