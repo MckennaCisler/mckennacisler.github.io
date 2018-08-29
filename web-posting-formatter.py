@@ -24,7 +24,7 @@ def print_work(work_list):
 
         bullets = get_list_str(work["highlights"])
         # TODO: clean URL
-        print("Description:\n%s\n%s%s" % (work["website"], work["summary"], bullets))
+        print("Description:\n%s\n\n%s\n%s" % (bullets, work["website"], work["summary"]))
         print("\n")
 
 def print_projects(projects):
@@ -49,7 +49,6 @@ def main():
     with open(FILENAME, "r") as f:
         resume = json.load(f)
         print_resume(resume)
-    input("Press enter to close")
 
 if __name__ == "__main__":
     main()

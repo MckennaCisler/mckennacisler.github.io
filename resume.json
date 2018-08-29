@@ -39,27 +39,23 @@
       "endDate": "2018-08-24",
       "summary": "MITRE is non-profit which operates seven federally-funded research and development centers (FFRDCs) spanning defense, aviation, healthcare, security, judiciary practice, and civil systems.",
       "highlights": [
-        "Built Android app to automate testing of a radio network. The app used UI automation to control components of a client app in order to produce realistic simulated traffic on the network",
-        "Integrated system with an existing control server for centralized test configuration and execution",
-        "Enabled execution of a 200-node radio test by eliminating the need for human participants to operate phones"
+        "Built Android app to automate radio network and power consumption testing. The app used UI automation to control components of a client app in order to produce realistic simulated user interaction and network traffic",
+        "Integrated system with an existing control server for centralized test configuration and synchronized execution",
+        "Enabled execution of a 250-node radio test by eliminating the need for human participants to operate phones"
       ]
     },
     {
       "company": "Brown Space Engineering",
-      "position": "Technical Lead / Flight Software Lead",
+      "position": "Technical Lead / Flight Software Engineer",
       "website": "http://brownspace.org/",
       "startDate": "2016-09-06",
       "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
-        "Designed satellite real-time operating system; wrote RTOS tasks in C for data recording and satellite actions",
-        "Wrote concurrency systems for protecting hardware interfaces and managing critical satellite operations",
-        "Developed boot sequence and OS state handling systems",
+        "Overseeing all technical projects for 75+ student club with $21k budget, including in-space satellite maintenance, development of future space missions, and high-altitude balloon launches",
+        "Developing ground station software and working on systems engineering of radio equipment for all satellite ground stations; performing telemetry analysis",
+        "Designed satellite real-time operating system; wrote RTOS tasks in C for data recording, command and control algorithms, and OS state handling. Wrote concurrency systems for protecting hardware interfaces",
         "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; uploaded final satellite binary before launch",
-        "Designed data collection protocols and transmission schema; performed link budget calculations",
-        "Optimized data structure RAM usage; converted all systems to safer static memory allocation",
-        "Developed Raspberry Pi-based ground station software and hardware for all primary groundstations; assisted in integrating radio systems",
-        "Contributed to data processing and presentation systems for ground station network",
-        "Performed analyses of satellite telemetry to isolate software issues and explain anomalous satellite behavior"
+        "Designed transmission schema and protocols; performed link budget calculations"
       ]
     },
     {
@@ -67,16 +63,26 @@
       "position": "Robotics Technician",
       "website": "http://hcri.brown.edu",
       "startDate": "2016-09-06",
-      "summary": "HCRI is an interdisciplinary coalition dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
+      "summary": "HCRI is an interdisciplinary coalition at Brown University dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Designed and built hardware and software of drivechain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
-        "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (NodeJS, MongoDB)",
-        "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing of visual and auditory data of study environment (Python, PointGrey, GigE)",
-        "Prototyped ultrasonic object localizing system for assisting the elderly in finding household objects. (ATTiny85, Arduino, NodeMCU, NodeJS)",
-        "Prototyped generalized video conferencing and teleoperation web platform for telepresence robots (NodeJS, P2P, ROS)",
+        "Designed and built hardware and software of drivetrain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
+        "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (Node, MongoDB)",
+        "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing tasks (Python, PointGrey, GigE)",
+        "Prototyped ultrasonic object localization system for assisting the elderly in finding household objects. (ATTiny85, NodeMCU, Node)",
+        "Prototyped universal video conferencing and teleoperation web platform for telepresence robots (Node, P2P, ROS)",
         "Responsible for hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
-        "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (NodeJS, NodeMCU)",
-        "Set up various ROS-based robots, including the TurtleBot and MIT’s DuckieBot self-driving car"
+        "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (Node, NodeMCU)"
+      ]
+    },
+    {
+      "company": "Brown University",
+      "position": "Teaching Assistant",
+      "website": "https://cs.brown.edu/courses/ta/",
+      "startDate": "2018-08-26",
+      "summary": "Teaching Assistant for CSCI 0330: Introduction to Computer Systems in Brown University Computer Science Department",
+      "highlights": [
+        "Held office and lab hours; graded student work",
+        "Developed educational material and handled student questions on assignments"
       ]
     },
     {
@@ -85,7 +91,7 @@
       "website": "http://whitemountainscience.org",
       "startDate": "2015-01-02",
       "endDate": "2017-08-28",
-      "summary": "A company interested in promoting STEM learning through instructional camps and development of education resources. I work as a developer of various educational tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for educational children's camps.",
+      "summary": "A company interested in promoting STEM learning through instructional camps and development of educational resources. I work as a developer of various tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for instructional children's camps.",
       "highlights": [
         "Developed an <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school. See <a href='http://www.whitemountainscience.org/wmsi-blog/2017/1/17/development-of-the-spider-paper-circuit-controller'>blog post</a>",
         "Designed High Altitude Balloon (HAB) on-board, tracking, and retrieval systems and procedures",
@@ -109,9 +115,9 @@
         "CSCI 0220 - Introduction to Discrete Structures and Probability",
         "CSCI 0330 - Introduction to Computer Systems",
         "ENGN 1630 - Digital Electronics Systems Design",
-	"ENGN 0520 - Electrical Circuits and Systems",
-	"CSCI 1420 - Machine Learning",
-	"CSCI 1380 - Distributed Computing Systems"
+      	"ENGN 0520 - Electrical Circuits and Systems",
+      	"CSCI 1420 - Machine Learning",
+      	"CSCI 1380 - Distributed Computing Systems"
       ]
     }
   ],
@@ -122,7 +128,7 @@
       "highlights": [
         "<a href='https://github.com/MckennaCisler/wikispeedia'>Repository</a>",
         "Introduction to Software Engineering Term Project (team)",
-        "Co-designed websocket communication framework to provide simple interface for frontend developers; solved race conditions and multithreading issues",
+        "Co-designed websocket communication protocols to provide simple interface for frontend developers; solved race conditions and multithreading issues",
         "Implemented backend game state and player coordination system; wrote oracle and AI players to play games randomly in order to test game mechanics and fairness systems",
         "Implemented algorithms for dynamic and fault-tolerant generation of page pairs (\"games\") using recursive web scraping",
         "Designed Wikipedia page link caching system to speed up page crawling and game generation",
@@ -190,7 +196,7 @@
       ],
       "keywords": [
         "D3.js",
-        "NodeJS"
+        "Node"
       ],
       "startDate": "2017-03-04",
       "endDate": "2017-03-05",
@@ -298,7 +304,8 @@
         "Blender",
         "Adobe Premier",
         "GIMP",
-        "Adobe Photoshop"
+        "Adobe Photoshop",
+        "Inkscape"
       ]
     }
   ],
