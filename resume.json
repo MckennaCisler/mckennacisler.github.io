@@ -5,7 +5,7 @@
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
-    "summary": "I'm a student with an interest in the intersection of software and hardware. I'm very interested in software engineering, radio, networking and information systems, avionics and control software, and systems engineering.",
+    "summary": "Software and Embedded Systems Engineer. I'm very interested in computer systems and networking, robotics, avionics and control systems, RF engineering, systems engineering, and anything at the intersection of hardware and software.",
     "location": {
       "postalCode": "NH 03586",
       "city": "Sugar Hill",
@@ -27,6 +27,10 @@
         "network": "Devpost",
         "username": "MckennaCisler (Devpost)",
         "url": "www.devpost.com/MckennaCisler"
+      },
+      {
+        "network": "Resume",
+        "url": "resume.mcisler.com"
       }
     ]
   },
@@ -52,10 +56,9 @@
       "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
         "Overseeing all technical projects for 75+ student club with $21k budget, including in-space satellite maintenance, development of future space missions, and high-altitude balloon launches",
-        "Developing ground station software and working on systems engineering of radio equipment for all satellite ground stations; performing telemetry analysis",
-        "Designed satellite real-time operating system; wrote RTOS tasks in C for data recording, command and control algorithms, and OS state handling. Wrote concurrency systems for protecting hardware interfaces",
-        "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; uploaded final satellite binary before launch",
-        "Designed transmission schema and protocols; performed link budget calculations"
+        "Working on systems engineering and software for radio link, tracking, and data processing systems of ground station network; performing telemetry analysis research",
+        "Designed satellite real-time operating system; wrote RTOS tasks in C for satellite command and control, OS state handling, data collection, and transmission schema and protocol",
+        "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; performed final satellite configuration before launch"
       ]
     },
     {
@@ -68,7 +71,7 @@
         "Designed and built hardware and software of drivetrain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
         "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (Node, MongoDB)",
         "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing tasks (Python, PointGrey, GigE)",
-        "Prototyped ultrasonic object localization system for assisting the elderly in finding household objects. (ATTiny85, NodeMCU, Node)",
+        "Prototyped ultrasonic object localization system to help the elderly find household objects. (ATTiny85, NodeMCU, Node)",
         "Prototyped universal video conferencing and teleoperation web platform for telepresence robots (Node, P2P, ROS)",
         "Responsible for hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (Node, NodeMCU)"
@@ -93,7 +96,7 @@
       "endDate": "2017-08-28",
       "summary": "A company interested in promoting STEM learning through instructional camps and development of educational resources. I work as a developer of various tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for instructional children's camps.",
       "highlights": [
-        "Developed an <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school. See <a href='http://www.whitemountainscience.org/wmsi-blog/2017/1/17/development-of-the-spider-paper-circuit-controller'>blog post</a>",
+        "Built <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school. See <a href='http://www.whitemountainscience.org/wmsi-blog/2017/1/17/development-of-the-spider-paper-circuit-controller'>blog post</a>",
         "Designed High Altitude Balloon (HAB) on-board, tracking, and retrieval systems and procedures",
         "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, Javascript & Scratch tutorials, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
         "Planned and ran week-long STEAM workshops for 3rd – 9th graders"
@@ -117,7 +120,8 @@
         "ENGN 1630 - Digital Electronics Systems Design",
       	"ENGN 0520 - Electrical Circuits and Systems",
       	"CSCI 1420 - Machine Learning",
-      	"CSCI 1380 - Distributed Computing Systems"
+      	"CSCI 1380 - Distributed Computing Systems",
+        "CSCI 1570 - Algorithms"
       ]
     }
   ],
