@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Mckenna Cisler",
-    "label": "Software Engineer",
+    "label": "Robotics/Embedded/Software Engineer",
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
-    "summary": "Software and Embedded Systems Engineer. I'm very interested in computer systems and networking, robotics, avionics and control systems, RF engineering, systems engineering, and anything at the intersection of hardware and software.",
+    "summary": "I'm very interested in computer systems and networking, robotics, avionics and control systems, RF engineering, systems engineering, and anything at the intersection of hardware and software.",
     "location": {
       "postalCode": "NH 03586",
       "city": "Sugar Hill",
@@ -55,7 +55,7 @@
       "startDate": "2016-09-06",
       "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
-        "Overseeing all technical projects for 75+ student club with $21k budget, including in-space satellite maintenance, development of future space missions, and high-altitude balloon launches",
+        "Overseeing all technical projects for 75+ student club with $21k budget, including on-orbit satellite maintenance, development of future spacecraft, and high-altitude balloon launches",
         "Working on systems engineering and software for radio link, tracking, and data processing systems of ground station network; performing telemetry analysis research",
         "Designed satellite real-time operating system; wrote RTOS tasks in C for satellite command and control, OS state handling, data collection, and transmission schema and protocol",
         "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; performed final satellite configuration before launch"
@@ -107,7 +107,7 @@
   "education": [
     {
       "institution": "Brown University",
-      "area": "Computer Science",
+      "area": "Computer Science and Engineering",
       "studyType": "Bachelors",
       "startDate": "2016-09-06",
       "endDate": "2020-05-27",
