@@ -57,7 +57,7 @@
       "highlights": [
         "Overseeing all technical projects for 75+ student club with $21k budget, including on-orbit satellite maintenance, development of future spacecraft, and high-altitude balloon launches",
         "Working on systems engineering and software for radio link, tracking, and data processing systems of ground station network; performing telemetry analysis research",
-        "Designed satellite real-time operating system; wrote RTOS tasks in C for satellite command and control, OS state handling, data collection, and transmission schema and protocol",
+        "Designed satellite real-time operating system; wrote RTOS tasks in C for satellite command and control, OS state handling, peripheral control and timing, data collection, and transmission schema and protocol",
         "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; performed final satellite configuration before launch"
       ]
     },
