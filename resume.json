@@ -257,7 +257,8 @@
         "C++",
         "Linux",
         "Go",
-        "Android"
+        "Android",
+        "OpenCV"
       ]
     },
     {
@@ -286,7 +287,7 @@
       ]
     },
     {
-        "name": "Computer & Embedded Engineering",
+        "name": "Robotics, Computer & Embedded Engineering",
         "level": "Intermediate",
         "keywords": [
             "Raspberry Pi",
