@@ -1,11 +1,11 @@
-{
+  {
   "basics": {
     "name": "Mckenna Cisler",
     "label": "Robotics/Embedded/Software Engineer",
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
-    "summary": "I'm very interested in computer systems and networking, robotics, avionics and control systems, RF engineering, systems engineering, and anything at the intersection of hardware and software.",
+    "summary": "I love solving high-impact problems with software-driven hardware. I'm interested in all of robotics, computer systems and networking, avionics and control systems, RF, and systems engineering.",
     "location": {
       "postalCode": "NH 03586",
       "city": "Sugar Hill",
@@ -36,10 +36,22 @@
   },
   "work": [
     {
+      "company": "Boom Supersonic",
+      "position": "Avionics Intern",
+      "website": "http://boomsupersonic.com/",
+      "startDate": "2019-05-28",
+      "endDate": "2019-08-16",
+      "summary": "Boom is a series B supersonic airliner startup valued at $141M. They're currently developing a single-seater Mach 2.2 demonstrator aircraft.",
+      "highlights": [
+        "Led clean-sheet design of mission-critical aircraft-tracking telemetry ground station, including requirement definition, critical design review, component integration, and C++ controller & user interface, for 5% of the cost of the commercial alternative ($3,000 vs. $60,000)",
+        "Developed a software tool to enable automated requirement verification based on software unit test results. Will be used to enable rapid flight software deployment during flight testing"
+      ]
+    },
+    {
       "company": "The MITRE Corporation",
       "position": "Software Engineering Intern",
       "website": "http://mitre.org/",
-      "startDate": "2018-07-10",
+      "startDate": "2018-06-10",
       "endDate": "2018-08-24",
       "summary": "MITRE is non-profit which operates seven federally-funded research and development centers (FFRDCs) spanning defense, aviation, healthcare, security, judiciary practice, and civil systems.",
       "highlights": [
@@ -53,11 +65,11 @@
       "position": "Technical Lead / Flight Software Engineer",
       "website": "http://brownspace.org/",
       "startDate": "2016-09-06",
-      "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
+      "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible by designing and building CubeSats from scratch. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
-        "Overseeing all technical projects for 75+ student club with $21k budget, including on-orbit satellite maintenance, development of future spacecraft, and high-altitude balloon launches",
-        "Working on systems engineering and software for radio link, tracking, and data processing systems of ground station network; performing telemetry analysis research",
-        "Designed satellite real-time operating system; wrote RTOS tasks in C for satellite command and control, OS state handling, peripheral control and timing, data collection, and transmission schema and protocol",
+        "Leading all technical projects for 75+ student team, including preliminary design and writing of a launch grant application for the team’s next satellite",
+        "Worked on systems engineering and software for radio link, tracking, and data processing systems of ground station network; performing telemetry analysis research",
+        "Designed satellite operating system; wrote RTOS-based system in C for satellite command and control, OS state handling, peripheral control and timing, data collection, and transmission schema and protocol",
         "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; performed final satellite configuration before launch"
       ]
     },
@@ -97,7 +109,7 @@
       "summary": "A company interested in promoting STEM learning through instructional camps and development of educational resources. I work as a developer of various tools and demos for use in our camps and to be sold to local teachers and schools, and also as an instructor for instructional children's camps.",
       "highlights": [
         "Built <a href='https://github.com/wmsi/ATtiny85-paper-circuits'>ATtiny85-based “paper circuit” controller</a> to be sold to educators, including documentation, manufacturing, and marketing materials; shipped 10 prototypes to local school. See <a href='http://www.whitemountainscience.org/wmsi-blog/2017/1/17/development-of-the-spider-paper-circuit-controller'>blog post</a>",
-        "Designed High Altitude Balloon (HAB) on-board, tracking, and retrieval systems and procedures",
+        "Designed High Altitude Balloon (HAB) systems and procedures to enable high schools with minimal resources to easily launch experiments to near-space",
         "Developed, assembled and demoed educational tools and resources, IoT devices, ScratchX extensions, Javascript & Scratch tutorials, wireless 3D printing tools, and a Raspberry Pi-based Sphero programming interface",
         "Planned and ran week-long STEAM workshops for 3rd – 9th graders"
       ]
@@ -121,7 +133,10 @@
       	"ENGN 0520 - Electrical Circuits and Systems",
       	"CSCI 1420 - Machine Learning",
       	"CSCI 1380 - Distributed Computing Systems",
-        "CSCI 1570 - Algorithms"
+        "CSCI 1570 - Algorithms",
+        "CSCI 1670 & CSCI 1690 - Operating Systems",
+        "ENGN 1640 - Design of Computing Systems",
+        "CSCI 2951K - Collaborative Robotics"
       ]
     }
   ],
