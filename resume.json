@@ -1,7 +1,7 @@
   {
   "basics": {
     "name": "Mckenna Cisler",
-    "label": "Robotics/Embedded/Software Engineer",
+    "label": "Software/Embedded/Robotics Engineer",
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
@@ -44,7 +44,7 @@
       "summary": "Boom is a series B supersonic airliner startup valued at $141M. They're currently developing a single-seater Mach 2.2 demonstrator aircraft.",
       "highlights": [
         "Led clean-sheet design of mission-critical aircraft-tracking telemetry ground station, including requirement definition, critical design review, component integration, and C++ controller & user interface, for 5% of the cost of the commercial alternative ($3,000 vs. $60,000)",
-        "Developed a software tool to enable automated requirement verification based on software unit test results. Will be used to enable rapid flight software deployment during flight testing"
+        "Developed a software tool to automate requirement verification based on software unit test results. Will be used to enable rapid flight software deployment during flight testing"
       ]
     },
     {
@@ -65,12 +65,11 @@
       "position": "Technical Lead / Flight Software Engineer",
       "website": "http://brownspace.org/",
       "startDate": "2016-09-06",
-      "summary": "Brown Space Engineering is a club at Brown University dedicated to making spaceflight more accessible by designing and building CubeSats from scratch. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
+      "summary": "Brown Space Engineering is a student team at Brown University dedicated to making spaceflight more accessible by designing and building CubeSats from scratch. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
-        "Leading all technical projects for 75+ student team, including preliminary design and writing of a launch grant application for the team’s next satellite",
-        "Worked on systems engineering and software for radio link, tracking, and data processing systems of ground station network; performing telemetry analysis research",
-        "Designed satellite operating system; wrote RTOS-based system in C for satellite command and control, OS state handling, peripheral control and timing, data collection, and transmission schema and protocol",
-        "Wrote bootloader to correct radiation-vulnerable program memory based on RAD-safe backup memory; performed final satellite configuration before launch"
+        "Leading all technical projects for 75+ student team, including on-orbit satellite maintenance of \"EQUiSat,\" preliminary design and grant writing for the team’s next satellite, and high-altitude balloon launches.",
+        "Worked on systems engineering and software for radio link, tracking, and data processing systems of EQUiSat ground station network; performing telemetry analysis research",
+        "Designed RTOS-based satellite OS components in C which have operated continuously in space for > 1 year, including critical control logic, data transmission, hardware interfacing, and bootloader to correct program memory from radiation-safe backup. Performed final satellite configuration before launch"
       ]
     },
     {
@@ -80,13 +79,13 @@
       "startDate": "2016-09-06",
       "summary": "HCRI is an interdisciplinary coalition at Brown University dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
-        "Designed and built hardware and software of drivetrain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS, BeagleBone)",
-        "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (Node, MongoDB)",
-        "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing tasks (Python, PointGrey, GigE)",
-        "Prototyped ultrasonic object localization system to help the elderly find household objects. (ATTiny85, NodeMCU, Node)",
+        "Designed and built hardware and software of drivetrain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS)",
+        "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (Node, C#, MongoDB)",
+        "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing tasks (Python, PointGrey)",
+        "Prototyped ultrasonic object localization system to help the elderly find household objects. (Atmel MCU, Node)",
         "Prototyped universal video conferencing and teleoperation web platform for telepresence robots (Node, P2P, ROS)",
         "Responsible for hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
-        "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (Node, NodeMCU)"
+        "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (Node)"
       ]
     },
     {
@@ -119,11 +118,11 @@
   "education": [
     {
       "institution": "Brown University",
-      "area": "Computer Science and Engineering",
+      "area": "Sc.B. Computer Science and B.A. Engineering",
       "studyType": "Bachelors",
       "startDate": "2016-09-06",
       "endDate": "2020-05-27",
-      "gpa":"3.77",
+      "gpa":"3.80",
       "courses": [
         "CSCI 0190 - Advanced Introduction to Computer Science",
         "CSCI 0320 - Introduction to Software Engineering",
