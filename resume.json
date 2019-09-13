@@ -67,8 +67,8 @@
       "startDate": "2016-09-06",
       "summary": "Brown Space Engineering is a student team at Brown University dedicated to making spaceflight more accessible by designing and building CubeSats from scratch. It has demonstrated this by successfully launching and operating the fully open-source CubeSat \"EQUiSat\" on July 13, 2018. EQUiSat is built entirely from commercial off-the-shelf parts and is capable of being reproduced for ~$3600 in under a year.",
       "highlights": [
-        "Leading all technical projects for 75+ student team, including on-orbit satellite maintenance of \"EQUiSat,\" preliminary design and grant writing for the team’s next satellite, and high-altitude balloon launches.",
-        "Worked on systems engineering and software for radio link, tracking, and data processing systems of EQUiSat ground station network; performing telemetry analysis research",
+        "Leading all technical projects for 75+ student team which designs and flies open-source CubeSats from scratch, including on-orbit satellite maintenance, preliminary design and grant writing for the team’s next satellite, and high-altitude balloon launches",
+        "Working on systems engineering and software for radio link, tracking, and data processing systems of EQUiSat ground station network; performing telemetry analysis research",
         "Designed RTOS-based satellite OS components in C which have operated continuously in space for > 1 year, including critical control logic, data transmission, hardware interfacing, and bootloader to correct program memory from radiation-safe backup. Performed final satellite configuration before launch"
       ]
     },
@@ -82,7 +82,7 @@
         "Designed and built hardware and software of drivetrain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS)",
         "Built analytics logging API and database for studying user interaction with an assistive toy for diabetic children (Node, C#, MongoDB)",
         "Wrote software frontend for 5-camera research study recording system; automated recording and post-processing tasks (Python, PointGrey)",
-        "Prototyped ultrasonic object localization system to help the elderly find household objects. (Atmel MCU, Node)",
+        "Prototyped ultrasonic object localization system to help the elderly find household objects (Atmel MCU, Node)",
         "Prototyped universal video conferencing and teleoperation web platform for telepresence robots (Node, P2P, ROS)",
         "Responsible for hardware interfacing, voice communication, and user interaction design for \"<a href='https://vimeo.com/225230975'>Tablebot</a>\" – a novel mobile telepresence robot designed to resemble furniture (C++, Python, ROS)",
         "Designed wireless trash can monitoring system for Brown University Facilities Department; ran two successful one-week trials (Node)"
