@@ -122,7 +122,7 @@
       "studyType": "Bachelors",
       "startDate": "2016-09-06",
       "endDate": "2020-05-27",
-      "gpa":"3.80",
+      "gpa":"3.83",
       "courses": [
         "CSCI 0190 - Advanced Introduction to Computer Science",
         "CSCI 0320 - Introduction to Software Engineering",
@@ -133,9 +133,12 @@
       	"CSCI 1420 - Machine Learning",
       	"CSCI 1380 - Distributed Computing Systems",
         "CSCI 1570 - Algorithms",
+        "ENGN 1570 - Linear Systems Analysis",
         "CSCI 1670 & CSCI 1690 - Operating Systems",
         "ENGN 1640 - Design of Computing Systems",
-        "CSCI 2951K - Collaborative Robotics"
+        "CSCI 2951K - Collaborative Robotics",
+        "CSCI 1680 - Computer Networks",
+        "ENGN 2911Q - Advanced Digital Design"
       ]
     }
   ],
