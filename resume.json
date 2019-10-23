@@ -77,6 +77,7 @@
       "position": "Robotics Technician",
       "website": "http://hcri.brown.edu",
       "startDate": "2016-09-06",
+      "endDate": "2018-12-20",
       "summary": "HCRI is an interdisciplinary coalition at Brown University dedicated to researching and developing humanity-centered robotics. I work as a technician on robots involved in research, development projects, and demonstrations. I also work on pilot projects in humanity-centered robot design.",
       "highlights": [
         "Designed and built hardware and software of drivetrain and control system for \"Walkerbot\" elderly assistive robot (C++, ROS)",
@@ -93,6 +94,7 @@
       "position": "Teaching Assistant",
       "website": "https://cs.brown.edu/courses/ta/",
       "startDate": "2018-08-26",
+      "endDate": "2018-12-20",
       "summary": "Teaching Assistant for CSCI 0330: Introduction to Computer Systems in Brown University Computer Science Department",
       "highlights": [
         "Held office and lab hours; graded student work",
