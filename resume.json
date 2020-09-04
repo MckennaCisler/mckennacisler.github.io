@@ -36,6 +36,16 @@
   },
   "work": [
     {
+      "company": "SpaceX",
+      "position": "Software Engineer",
+      "website": "https://spacex.com",
+      "startDate": "2020-09-14",
+      "summary": "SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft, including the new Starlink internet constellation.",
+      "highlights": [
+        "Working on flight software for Starlink internet satellites"
+      ]
+    },
+    {
       "company": "NASA Jet Propulsion Laboratory",
       "position": "Graduate Flight Software Intern",
       "website": "https://jpl.nasa.gov",
