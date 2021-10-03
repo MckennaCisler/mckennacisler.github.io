@@ -222,7 +222,7 @@
       "name": "Citation Converter (individual)",
       "description": "One-of-a-kind webapp for converting between competing academic citation formats",
       "highlights": [
-        "Deployed for 2+ years at <a href='http://www.citationconverter.com'>www.citationconverter.com</a>",
+        "Deployed at <a href='http://www.citationconverter.com'>www.citationconverter.com</a>",
         "1000+ weekly visitors",
         "Wrote Python-based citation conversion engine; ported to Javascript for use on web frontend",
         "Currently working on interfacing conversion engine with the Citation Style Language (CSL) to support 8000+ additional citation styles",
