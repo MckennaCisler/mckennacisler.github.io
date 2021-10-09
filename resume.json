@@ -7,10 +7,10 @@
     "website": "http://www.mcisler.com",
     "summary": "I love solving high-impact problems with software-driven hardware. I'm interested in all of robotics, computer systems and networking, avionics and control systems, RF, and systems engineering.",
     "location": {
-      "postalCode": "NH 03586",
-      "city": "Sugar Hill",
+      "postalCode": "98052",
+      "city": "Redmond",
       "countryCode": "United States",
-      "region": "New Hampshire"
+      "region": "Washington"
     },
     "profiles": [
       {
@@ -22,6 +22,11 @@
         "network": "GitHub",
         "username": "MckennaCisler",
         "url": "www.github.com/MckennaCisler"
+      },
+      {
+        "network": "Flickr",
+        "username": "Flickr",
+        "url": "www.flickr.com/photos/mckennacislerphotography"
       },
       {
         "network": "Devpost",
