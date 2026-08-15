@@ -1,14 +1,13 @@
   {
   "basics": {
     "name": "Mckenna Cisler",
-    "label": "Software/Embedded/Robotics Engineer",
+    "label": "Software | Embedded | Controls | Robotics",
     "picture": "",
     "email": "mckennacisler@gmail.com",
     "website": "http://www.mcisler.com",
-    "summary": "I love solving high-impact problems with software-driven hardware. I'm interested in all of robotics, computer systems and networking, avionics and control systems, RF, and systems engineering.",
+    "summary": "I love solving high-impact problems neck-deep in hardware.",
     "location": {
-      "postalCode": "98052",
-      "city": "Redmond",
+      "city": "Seattle",
       "countryCode": "United States",
       "region": "Washington"
     },
@@ -29,11 +28,6 @@
         "url": "www.flickr.com/photos/mckennacislerphotography"
       },
       {
-        "network": "Devpost",
-        "username": "Devpost",
-        "url": "www.devpost.com/MckennaCisler"
-      },
-      {
         "network": "Resume",
         "url": "resume.mcisler.com"
       }
@@ -41,13 +35,24 @@
   },
   "work": [
     {
+      "company": "Endurance Energy",
+      "position": "Founding Firmware Engineer",
+      "website": "https://enduranceenergy.com",
+      "startDate": "2025-12-15",
+      "summary": "Endurance is building the worlds first subsea geothermal power plants.",
+      "highlights": [
+        "Building the firmware & controls stack for subsea geothermal power plants from scratch."
+      ]
+    },
+    {
       "company": "SpaceX",
       "position": "Software Engineer",
       "website": "https://spacex.com",
       "startDate": "2020-09-14",
-      "summary": "SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft, including the new Starlink internet constellation.",
+      "endDate": "2025-07-15",
+      "summary": "SpaceX designs, manufactures and launches the world's most advanced rockets and spacecraft, including the new Starlink internet constellation.",
       "highlights": [
-        "Working on flight software for Starlink internet satellites"
+        "Delivered next-generation Starlink backhaul antenna software, actuators, power systems, and constellation fault recovery systems."
       ]
     },
     {
@@ -58,7 +63,7 @@
       "endDate": "2020-08-13",
       "summary": "JPL is the leading U.S. NASA center for robotic exploration of the solar system, and has various spacecraft and instruments carrying out planetary, Earth science and space-based astronomy missions.",
       "highlights": [
-        "Developed flight software module in C for Psyche mission to a metal asteroid"
+        "Developed flight software module in C for Psyche mission to a metal asteroid."
       ]
     },
     {
@@ -321,12 +326,13 @@
   "skills": [
     {
       "name": "Software Development",
-      "level": "Intermediate",
+      "level": "Advanced",
       "keywords": [
-        "Java",
+        "Rust",
+        "C++",
         "Python",
         "C",
-        "C++",
+        "Java",
         "Linux",
         "Go",
         "Android",
